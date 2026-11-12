@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Built index (regenerated from data/)
+minegpt_index.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
