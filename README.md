@@ -32,14 +32,15 @@ TF-IDF retriever  ──►  top-k DGMS passages
 
 ## Setup
 
-The project ships with a ready-made virtual environment in `.venv/`. If you
-cloned it fresh, create one and install dependencies:
+Clone the repo and create a virtual environment (the `.venv/` is not committed):
 
 ```bash
-# from the MineGPT folder
-py -3.12 -m venv .venv
-.venv\Scripts\activate          # Windows (PowerShell/CMD)
-# source .venv/bin/activate     # macOS/Linux
+git clone https://github.com/Iitian-shivansh/MineGPT.git
+cd MineGPT
+
+py -3.12 -m venv .venv            # Windows (Python 3.12 recommended)
+.venv\Scripts\activate           # Windows (PowerShell/CMD)
+# python3 -m venv .venv && source .venv/bin/activate   # macOS/Linux
 pip install -r requirements.txt
 ```
 
